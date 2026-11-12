@@ -1,44 +1,115 @@
-# Första-HTML-Project
-Hej, jag har just börjat min projekt.
+# Git, GitHub, Visual Studio Code, Markdown och HTML 
 
-# Markdown
+## Introduktion
 
-Markdown är ett enkelt sätt att formatera text.
+Den här README.md visar vad jag har lärt mig om grundläggande kunskaper inom Git, GitHub, Visual Studio Code, Markdown och HTML. Exemplen riktar sig till nya studenter.
 
-## Rubriker
+## 1. Git
 
-**Det här är fet text.**
+Git är ett versionshanteringssystem som används för att hantera ändringar och versioner i ett projekt.
 
-*Det här är kursiv text.*
+### Git-kommandon
 
-## Lista
+```bash
+git status
+git add .
+git commit --message "Ändrade"
+git push origin main
+```
 
-- HTML
-- Git
-- GitHub
-- Markdown
+- `git status` visar projektets aktuella ändringar.
+- `git add .` lägger till ändringar inför nästa commit.
+- `git commit` sparar ändringar lokalt som en version.
+- `git push` skickar commits till GitHub.
 
-## Länk
+## 2. GitHub
 
-[Google](https://www.google.com)
+GitHub är en onlineplattform för att lagra och dela repositories.
 
-## Vad har jag lärt mig?
+### Skapa och koppla repository
 
-Jag har lärt mig att Markdown används för att skapa rubriker, listor och länkar.
+1. Skapa ett repository på GitHub.
+2. Aktivera README.md.
+3. Kopiera repository-URL.
+
+```bash
+git clone <repository-url>
+```
+
+`git clone` kopierar repository från GitHub till datorn och skapar en lokal kopia med en koppling till fjärrrepositoryt.
+
+Git hanterar versioner lokalt och GitHub lagrar repository online.
+
+## 3. Visual Studio Code
+
+Visual Studio Code (VS Code) är en kodredigerare för att skapa och redigera filer.
+
+### Funktioner
+
+* Öppna ett repository.
+* Skapa och redigera `index.html`.
+* Skriva HTML-kod.
+* Skriva Markdown i `README.md`.
+* Spara filer med `Cmd + S`.
+* Använda Terminal för Git-kommandon.
+
+## 4. Markdown
+
+Markdown används för att formatera text med rubriker, listor, länkar och fet text, till exempel i README.md.
+
+### Exempel
+
+```markdown
+# Rubrik
+## Underrubrik
+
+**Fet text**
+
+*Italic text*
+
+- Första punkten
+- Andra punkten
+```
 
 
-## HTML
+## 5. HTML
 
-HTML används för att skapa strukturen på en webbsida.
+HTML (HyperText Markup Language) används för att strukturera innehåll på webbsidor.
+
+### HTML-element
+
+| Element | Funktion |
+|---|---|
+| `<h1>` | Huvudrubrik |
+| `<h2>` | Underrubrik |
+| `<title>`|Sidtitel |
+| `<p>` | Textstycke |
+| `<a>` | Länk |
+| `<img>` | Bild |
+| `<div>` | Container |
+| `<ol>`  |Ordnad lista  |
+| `<ul>` | Oordnad lista |
+| `<li>` | Listpunkt |
+| `<button>` | Knapp |
 
 ### Exempel
 
 ```html
-<h1>Det här är en rubrik</h1>
-<p>Det här är ett stycke text.</p>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title>Min webbsida</title>
+</head>
+<body>
+    <h1>Min första rubrik</h1>
+    <p>Det här är min första text.</p>
+    <button>Klicka här</button>
+</body>
+</html>
 ```
 
-- `h1` används för rubriker.
-- `p` används för textstycken.
-- `ul` används för listor.
-- `a` används för länkar.
+HTML-element används för att strukturera rubriker, text och andra innehåll på en webbsida.
+
+## Sammanfattning
+
+Git används för versionshantering, GitHub för online-lagring och Visual Studio Code för kodredigering. Markdown används för textformatering och HTML för att strukturera webbsidor.
