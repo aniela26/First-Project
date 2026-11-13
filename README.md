@@ -1,19 +1,33 @@
 # Visual Studio Code
 
 
-Visual Studio Code (VS Code) är en kodredigerare för att skapa och redigera filer.
+* VS code är en kodredigerare.
+* Den används för att skapa och redigera filer.
+* Den stöder flera programmeringspråk, till exempel HTML, CSS OCH JavaScript.
 
-### Funktioner
+## Viktiga delar i VS Code
 
-* Öppna ett repository.
-* Skapa och redigera `index.html`.
-* Skriva HTML-kod.
-* Skriva Markdown i `README.md`.
-* Spara filer med `Cmd + S`.
+|  Del         |        Funktion
+|---|---|
+| Explorer | Visar projektets filer och map. |
+| Editor | Här skrivs och redigeras koden. |
+| Terminal | Här kan Git-kommandon köras. |
+| Extensions | Här kan funktioner och tillägg installeras. |
+
+
+
+### Vad kan man göra i VS Code?
+
+* Skapa em `index.html-fil`.
+* Skriva och redigera HTML.kod.
+* Skapa och redigera `README.md` med Markdown.
+* Spara ändringar med `Cmd + S`.
+* Öppna och arbeta med ett GitHub-repositary.
 * Använda Terminal för Git-kommandon.
 
 
 
-### Sammanfattning av vad jag har lärt mig under veckan
+### Sammanfattning
 
-Git används för versionshantering, GitHub för online-lagring och Visual Studio Code för kodredigering. Markdown används för textformatering och HTML för att strukturera webbsidor.
+VS Code är ett verktyg för att skriva, redigera och organisera kod. Det kan också används tillsammans med Git och GitHub.
+
