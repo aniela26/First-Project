@@ -3,7 +3,7 @@
 
 * VS code är en kodredigerare.
 * Den används för att skapa och redigera filer.
-* Den stöder flera programmeringspråk, till exempel HTML, CSS OCH JavaScript.
+* Den stöder flera programmeringspråk, till exempel HTML, CSS och JavaScript.
 
 ## Viktiga delar i VS Code
 
@@ -18,7 +18,7 @@
 
 ### Vad kan man göra i VS Code?
 
-* Skapa em `index.html-fil`.
+* Skapa en `index.html-fil`.
 * Skriva och redigera HTML.kod.
 * Skapa och redigera `README.md` med Markdown.
 * Spara ändringar med `Cmd + S`.
