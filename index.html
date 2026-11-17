@@ -1,50 +1,136 @@
-<html>
 <!DOCTYPE html>
-<html
+<html lang="sv">
 <em>Välkommen</em>
-    <head>
-        <title>Min första html dokument</title>
-    </head>
-    <body>
-        <h1>Vällommen till min webbplats</h1>
-        <p>Det här är en enkel paragraf.</p>
-        <buttonKlicka här</button>
-        <p>Consequat labore labore cupidatat elit esse et cupidatat ut officia ullamco et. Cillum sint nisi laboris eu laboris. Dolore exercitation cupidatat velit ea anim anim cupidatat ad qui fugiat proident ad. Culpa duis amet veniam non. Labore ea culpa ad esse ullamco dolor pariatur eiusmod. Cillum laborum esse reprehenderit incididunt non mollit amet ea anim occaecat mollit anim reprehenderit. Anim qui enim pariatur excepteur.
 
-Lorem et Lorem in ut aute. Enim fugiat veniam excepteur laborum consectetur occaecat veniam. Elit deserunt exercitation tempor velit cillum. Proident adipisicing ut deserunt minim duis excepteur ipsum sunt dolore. Laboris ut minim ea sunt tempor qui. Velit ea magna culpa officia ad pariatur anim aute. Proident cupidatat non proident officia do cillum id eu do deserunt ad qui.
+<head>
+    <meta charset="UTF-8">
+    <title>Min webbsida</title>
 
-Cillum id sint non minim enim deserunt. Velit consectetur cillum eu deserunt excepteur culpa officia. Cupidatat deserunt tempor cupidatat dolor consectetur nulla ut irure elit excepteur pariatur culpa occaecat amet.
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="min-stil.css">
+</head>
 
-Aliquip cillum quis eiusmod proident aliquip culpa. Do ex Lorem magna deserunt qui minim esse. Commodo nisi laboris et do minim excepteur. In ullamco amet mollit in sint anim consectetur consequat amet labore tempor excepteur.
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-Id ad ex nostrud id sit sint duis eiusmod Lorem sunt ea elit ullamco. Adipisicing qui aute veniam ullamco excepteur. Ad amet elit eu do elit adipisicing officia eu officia ipsum mollit eiusmod irure veniam. Nisi eu esse magna ipsum. Cupidatat dolor anim dolor aliquip pariatur qui commodo sit aliqua commodo cillum.</p>
-    </body>
+        <a class="navbar-brand" href="#">MDU | ITE130</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Start</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Om kursen ITE130</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Git</a>
+                </li>
+
+            </ul>
+
+        </div>
 
 
-    <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ol>
+    </nav>
 
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-
-    <div>
-        <p>Det här är en enkel paragraf.</p>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Välkommen till MDU!</h1>
+        <p class="lead text-muted">Välkommen till kursen ITE130!</p>
+        <button class="btn btn-primary">Läs mer</button>
     </div>
 
-    <img src="bild.jpg" alt="En bild">
-    <a href="https://www.google.com">Länk till Google</a>
+    <section class="container student-story" aria-labelledby="student-story-title">
+        <div class="student-story__panel">
+            <div class="row no-gutters align-items-stretch">
+                <div class="col-md-4 student-story__visual">
+                    <svg class="student-story__illustration" viewBox="0 0 320 320" role="img"
+                        aria-label="Illustrerad student som läser en bok">
+                        <circle class="student-story__illustration-bg" cx="160" cy="160" r="132" />
+                        <path class="student-story__person" d="M76 278c8-54 38-83 84-83s76 29 84 83" />
+                        <path class="student-story__skin" d="M143 153h34v42h-34z" />
+                        <ellipse class="student-story__skin" cx="160" cy="118" rx="39" ry="47" />
+                        <path class="student-story__hair"
+                            d="M121 119c-7-39 14-64 43-64 31 0 49 24 42 61-9-4-17-12-21-23-16 14-37 20-61 18l-3 8z" />
+                        <path class="student-story__person" d="M112 202c-16 7-24 19-20 34l21 8 19-23" />
+                        <path class="student-story__person" d="M208 202c16 7 24 19 20 34l-21 8-19-23" />
+                        <path class="student-story__book-page" d="M91 219c24-8 47-5 69 8v51c-22-12-45-15-69-7z" />
+                        <path class="student-story__book-page" d="M160 227c22-13 45-16 69-8v52c-24-8-47-5-69 7z" />
+                        <path class="student-story__book-spine" d="M160 227v51" />
+                        <path
+                            d="M105 231c13-3 26-2 39 3m-39 8c13-3 26-2 39 3m33-11c13-5 26-6 39-3m-39 11c13-5 26-6 39-3"
+                            class="student-story__book-lines" />
+                    </svg>
+                </div>
 
-<strong>Det här är en viktigt information.</strong>
+                <div class="col-md-1 student-story__content">
+                    &nbsp;
+                </div>
+                <div class="col-md-6 student-story__content">
+                    <h2 id="student-story-title">En student berättar</h2>
+                    <p>
+                        Jag studerar på MDU och läser kursen ITE130. I kursen lär jag mig grunderna i HTML,CSS OCH
+                        Bootsrap.
+                        I början var det lite svårt att förstå hur allt fungerar, men steg för steg blir det lättare.
+                    </p>
+                    <p>
+                        Det är roligt att skapa en egen webbsida och se hur den förändras när jag skriver ny kod. Jag
+                        tycker
+                        att det är interessant att lära mig nya saker och utveckla mina kunskaper inom webbutveckling.
+                    </p>
+                    <p>
+                        Mit mål är att bli säkrare på att skriva kod och skapa egna webbsidor.
+                    </p>
+               </div> 
+               <div class="col-md-1 student-story__content">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Vad är Git?</h3>
+                <p class="card-text">
+                    Git är ett versionshanteringssystem som används för att spara och hålla koll på ändringar i kod. Med
+                    Git kan man gå tillbaka till tidigare versioner och samarbeta med andra utvecklare.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Lär dig webbutveckling</h5>
+                        <p class="card-text">
+                            Upptäck grunderna i HTML, CSS och Bootstrap i kursen ITE130.
+                        </p>
+                        <a href="#" class="btn btn-primary">Läs mer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center p-4">
+        <p>MDU | Kursen ITE130</p>
+        <p>© 2026 Mälardalens universitet</p>
+    </footer>
+
+
 </html>
-<footer>kontaktuppgifter</footer>
-<section>
-    <h2>Om oss</h2>
-    <p>Vi är ett företag som erbjuder tjänster inom webbutveckling.</p>
-
-    </html>
